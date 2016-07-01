@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@android:dimen/thumbnail_width"
+    android:layout_height="@android:dimen/thumbnail_height"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nellya.uisample.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+
+    <ImageView
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:id="@+id/imageView"
+        android:contentDescription="@string/photo_identit"
+        android:background="@drawable/img_0081"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/txtv2" />
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nellya
+ZOHOUN"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile(4)Senegal"
+        android:layout_toStartOf="@id/txtv2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/txtv2"
+        android:textAlignment="center" />
+
+</RelativeLayout>
